@@ -70,7 +70,7 @@ public class DeepCloneTest {
             System.out.println("type2 is not ParameterizedType");
         }
         // test1();
-         fastJsonTest();
+        // fastJsonTest();
         deepClone(new JdkSerializer());
         deepClone(new HessianSerializer());
         deepClone(new FastjsonSerializer());
